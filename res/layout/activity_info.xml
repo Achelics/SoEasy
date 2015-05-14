@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/run_image"
+            android:layout_width="1280dp"
+            android:layout_height="fill_parent"
+            android:scaleType="matrix"
+            android:src="@drawable/background_all" />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+        android:background="#35FFFFFF"
+        android:gravity="center" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#1c1c1c"
+        android:text="搜衣(SoEasy)提供了方便快速的服装匹配服务。" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="22sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/textView1"
+        android:text="功能介绍：" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="19sp"
+        android:layout_below="@+id/textView2"
+        android:text="1、直接搜索：  可选择“相册”与“拍照”两种模式获取服装照片，而后点击√即可获取服装 的相关信息。" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="19sp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/textView3"
+        android:text="2、品牌浏览：  可以选择浏览某一品牌下的服装内容。" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textSize="19sp"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/textView4"
+        android:text="3、数据更新：  如果服务器端有了新服装库，可用此按钮更新手机数据。" />
+    
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1c1c1c"
+        android:textSize="14sp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView7"
+        android:text="指导教师 				韩振华	李钢" />
+    
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1c1c1c"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentRight="true"
+        android:text="开发人员     刘松  王东晋  张伟卓" />
+
+    
+    </RelativeLayout>
+
+</RelativeLayout>

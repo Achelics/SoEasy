@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SoEasy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_get_image">GetImageActivity</string>
+    <string name="title_activity_back_list">ReturnListActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_cget_image">CGetImageActivity</string>
+    <string name="title_activity_update_data">UpdateDataActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_get_local">GetLocalActivity</string>
+	<string name="get_value">容错值： 255</string>
+</resources>
